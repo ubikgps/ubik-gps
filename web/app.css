@@ -1,0 +1,162 @@
+    .view-color-green {
+    background-color: rgba(77, 250, 144, 0.3);
+}
+.view-color-yellow {
+    background-color: rgba(250, 190, 77, 0.3);
+}
+.view-color-red {
+    background-color: rgba(255, 84, 104, 0.3);
+}
+
+.view-item-disabled {
+    opacity: 0.5;
+}
+.x-menu-item-text-default{
+    color: #FFF;
+}
+
+.myClsDevice .x-panel-header-default {
+    background-color: #d3d3d3;
+    border-radius: 20px 20px 0px 0px ;
+}
+
+.x-btn.x-unselectable.x-box-item.x-toolbar-item.x-btn-default-toolbar-small.x-btn{
+    border-radius: 30px;
+    background-color: #FFF;
+    border: rgba(23, 62, 116, 8.342) 3px;
+}
+
+.x-btn.x-unselectable.x-box-item.x-toolbar-item.x-btn-default-toolbar-small-focus.x-btn-pressed{
+    background-color: #635959;
+}
+
+.toolbar-header-style {
+    background-color: #212121 !important;
+}
+
+body.x-border-layout-ct, div.x-border-layout-ct {
+    background-color: #fff !important;
+}
+
+.x-title-text.x-title-text-default.x-title-item{
+    background: #212121;
+}
+
+/* TEXTO */
+
+.x-menu-item-text.x-menu-item-text-default.x-menu-item-indent-no-separator{
+    color: #FFF;
+}
+
+/*Panel lateral derecho*/
+.x-panel-header.x-header.x-region-collapsed-placeholder.x-region-collapsed-right-placeholder.collapsed.x-border-item.x-box-item.x-unselectable.x-panel-header-default.x-collapsed.x-panel-header-collapsed.x-panel-header-default-collapsed.x-collapsed-left.x-panel-header-collapsed-left.x-panel-header-default-collapsed-left.x-vertical.x-panel-header-vertical.x-panel-header-default-vertical.x-left.x-panel-header-left.x-panel-header-default-left.x-box-layout-ct{
+    background: #212121;
+}
+
+/*Panel inferior*/
+.x-panel-header.x-header.x-region-collapsed-placeholder.x-region-collapsed-bottom-placeholder.collapsed.x-border-item.x-box-item.x-unselectable.x-panel-header-default.x-collapsed.x-panel-header-collapsed.x-panel-header-default-collapsed.x-collapsed-top.x-panel-header-collapsed-top.x-panel-header-default-collapsed-top.x-horizontal.x-panel-header-horizontal.x-panel-header-default-horizontal.x-top.x-panel-header-top.x-panel-header-default-top.x-box-layout-ct{
+    background: #212121;
+}
+
+/*Panel lateral izquierdo*/
+.x-panel-header.x-header.x-region-collapsed-placeholder.x-region-collapsed-left-placeholder.collapsed.x-border-item.x-box-item.x-unselectable.x-panel-header-default.x-collapsed.x-panel-header-collapsed.x-panel-header-default-collapsed.x-collapsed-left.x-panel-header-collapsed-left.x-panel-header-default-collapsed-left.x-vertical.x-panel-header-vertical.x-panel-header-default-vertical.x-left.x-panel-header-left.x-panel-header-default-left.x-box-layout-ct{
+    background: #212121;
+}
+
+.myCls .x-panel-header-default {
+    background-color: #212121;
+}
+
+/*marco de inicio de sesion*/
+.x-window.x-layer.x-window-default.x-border-box
+{
+    border-color: #212121;
+}
+
+/*boton de inicio de secion*/
+.x-btn-inner.x-btn-inner-default-small{
+    background: #3e3e3f;
+    border-radius: 2px;
+}
+
+.x-box-inner{    
+    background: #212121;
+}
+
+/*botones que tiene flecha izquierda*/
+.x-collapse-el.x-layout-split-left{
+    background: #2b2a2a
+}
+
+/*botones que tiene flecha derecha*/
+.x-collapse-el.x-layout-split-right{
+    background: #2b2a2a
+}
+
+/*botones que tiene flecha de abajo*/
+.x-collapse-el.x-layout-split-bottom{
+    background: #2b2a2a
+}
+
+/*Cabecera de ventana emergente*/
+.x-window-header.x-header.x-header-draggable.x-docked.x-unselectable.x-window-header-default.x-horizontal.x-window-header-horizontal.x-window-header-default-horizontal.x-top.x-window-header-top.x-window-header-default-top.x-box-layout-ct{
+    background: #212121;
+}
+
+/*Iconos auxiliares*/
+.x-btn.x-unselectable.x-box-item.x-toolbar-item.x-btn-default-small{
+    background: #212121;
+    border: #ffffff;
+}
+
+/*Bordes de paneles*/
+.x-toolbar.toolbar-header-style.x-docked.x-toolbar-default.x-docked-top.x-toolbar-docked-top.x-toolbar-default-docked-top.x-box-layout-ct.x-noborder-trl{
+    background: radial-gradient(#212121, #212121);
+}
+
+/*Boton cerrar emergente*/
+.x-window-header-default.x-tool-img{
+    background-color: #212121;
+}
+
+.x-fieldset {
+    overflow: visible !important; /* workaround for Safari issue */
+}
+
+#update {
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#attribution {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-size: x-small;
+}
+
+#spinner:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    border-radius: 50%;
+    border-top: 6px solid #212121;
+    border-right: 6px solid transparent;
+    animation: spinner .6s linear infinite;
+}
+
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+		color: #212121;
+    }
+}
